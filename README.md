@@ -1,13 +1,16 @@
 ![CI](https://github.com/pulp-platform/snitch/actions/workflows/ci.yml/badge.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# Snitch System
+# Snitch System Fork
 
-This monolithic repository hosts software and hardware for the Snitch generator and generated systems.
+Fork of the snitch system for developing applications on the banshee simulator.
 
 ## Getting Started
 
-To get started, check out the [getting started guide](https://pulp-platform.github.io/snitch/ug/getting_started/).
+1. Clone this repository
+2. `cd` into `sw`
+3. To build, run `bash build.sh [directory]`. For example, to build the predefined `benchmark`, run `bash build.sh benchmark`
+4. Find the generated binaries in `[directory]/build`
 
 ## Content
 
